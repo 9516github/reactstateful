@@ -7,7 +7,7 @@ export default function Year(props) {
     <select id="select" onChange={(e) => {
       setData(e.target.value);
     }}>
-      <option value="null">choose</option>
+      <option value="null"></option>
       <option value="2018">2018</option>
       <option value="2019">2019</option>
       <option value="2020">2020</option>
